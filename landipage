@@ -1,0 +1,229 @@
+INDEX.HTML 
+
+<!DOCTYPE html> 
+
+<html lang="pt-BR"> 
+
+<head> 
+
+    <meta charset="UTF-8"> 
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+
+    <title>Landing Page Simples</title> 
+
+    <link rel="stylesheet" href="./style.css"> 
+
+</head> 
+
+<body> 
+
+    <!--Cabecalho--> 
+
+    <header> 
+
+        <h1>Bem vindo á nossa Landing Page!</h1> 
+
+        <p>Aprenda HTML e CSS e muito mais, de forma simples e rapida.</p>    
+
+    </header> 
+
+ 
+
+    <!-- seçao dos conteúdos --> 
+
+ 
+
+    <section> 
+
+        <h2>o quê voçe vai aprender:</h2> 
+
+        <ul> 
+
+            <li>Estrutura básica de HTML</li> 
+
+            <li>Como estilizar páginas com CSS</li> 
+
+            <li>Como criar layouts simples responsivos</li> 
+
+ 
+
+        </ul> 
+
+    </section> 
+
+ 
+
+    <!-- Seçao de chamada para Açao --> 
+
+    <section> 
+
+        <h2>Increva-se no nosso curso!</h2> 
+
+        <p>Nao perca a chance de aprender de forma prática e rapida!</p> 
+
+        <button onclick="window.open('https://wa.me/5541997281782?text=Olá,%20gostaria%20de%20saber%20mais%20sobre%20o%20curso!','_blank')"> 
+
+            Increva-se 
+
+        </button> 
+
+    </section> 
+
+ 
+
+ 
+
+        <!--Rodapé--> 
+
+    <footer> 
+
+        <p>&copy; 2025 cursoHTML e CSS. Todos os direitos reservados. by Echilin S Magalhães</p> 
+
+    </footer> 
+
+</body> 
+
+</html> 
+
+ 
+
+STYLE.CSS 
+
+*{ 
+
+    margin: 0; 
+
+    padding: 0; 
+
+    box-sizing: border-box; 
+
+} 
+
+ 
+
+body{ 
+
+    font-family: Arial, Helvetica, sans-serif; 
+
+    line-height: 1.6; /*melhor leitura*/ 
+
+    background-color: #acabb3fd;/*cor de fundo clara*/ 
+
+    color: #333;/*cor de texto escura*/ 
+
+} 
+
+ 
+
+/*Estilopara o cabeçalho*/ 
+
+header{ 
+
+    background-color: #4c93af; 
+
+    color: white; 
+
+    padding: 20px; 
+
+    text-align: center; 
+
+} 
+
+ 
+
+/*Estilo para as seçoes*/ 
+
+section{ 
+
+    margin: 20px; 
+
+    padding: 20px; 
+
+    background-color: white; 
+
+    border-radius:8px ; 
+
+    box-shadow: 0 0 10px rgba(0, 0 ,0 , 0.1); 
+
+    align-items: center; 
+
+    text-align: center; 
+
+ 
+
+} 
+
+ 
+
+h2{ 
+
+    color: #0f0e0e; 
+
+} 
+
+  
+
+ul{ 
+
+    list-style-type: none; /*remove bolinhas da lista*/ 
+
+} 
+
+ 
+
+ul li{ 
+
+    margin: 10px 0;     
+
+} 
+
+ 
+
+button{ 
+
+    background-color: #1965c9; 
+
+    color: white; 
+
+    padding: 10px 20px; 
+
+    border: none; 
+
+    border-radius: 5px; 
+
+    cursor: pointer; 
+
+    font-size: 16px;  
+
+} 
+
+ 
+
+button:hover{ 
+
+    background-color: #9595a1; 
+
+} 
+
+ 
+
+footer{ 
+
+    text-align: center; 
+
+    padding:10px; 
+
+    background-color: #333; 
+
+    color: white; 
+
+    position:fixed; 
+
+    width: 100%; 
+
+    bottom: 0; 
+
+} 
+
+ 
